@@ -18,7 +18,7 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center -60px;
-	padding: 100px 20px 0px 20px;
+	padding: 300px 20px 0px 20px;
 }
 
 .main-nav a{
@@ -38,9 +38,22 @@ body{
 	top:5px;
 }
 
+.main-nav a {
+    display: inline-block;
+    border-radius: 5px 0px 0px 0px;
+    border-bottom: 10px solid white;
+    background-color: rgba(255, 255, 255, 0.64);
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    position: relative;
+    top: 0px;
+    transition: top 300ms ease;
+}
 .page-content{
 	padding: 20px;
 }
+
 
 h1{
 	background-color: #b68052;
