@@ -24,7 +24,7 @@ body{
 
 
 .main-nav a:hover{
-	top:5px;
+	top:-5px;
 }
 
 .main-nav a {
@@ -36,7 +36,7 @@ body{
     text-decoration: none;
     padding: 5px 10px;
     position: relative;
-    top: 0px;
+    top: 10px;
     transition: top 300ms ease;
 }
 .page-content{
